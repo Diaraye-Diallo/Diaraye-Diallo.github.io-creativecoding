@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: #ae3189;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h1, h2.contact-info, p {
+    margin: 10px 0;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#home {
+    background: #f4f4f4;
+}
+#about, #portfolio, #contact {
+    background: #fff;
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.gallery .item {
+    background: #ddd;
+    padding: 1rem;
+    flex: 1;
+    text-align: center;
+}
+
+
+.profile-pic {
+    width: 250px; 
+    height: auto; 
+}
+
+
+footer {
+    background: #a35291;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    padding: 0%;
+    position: fixed;
+    width: 100%;
+    bottom: 0.0;
+    font-family: sans-serif;
+    font-size: smaller;
+    box-sizing: border-box;
+
+}
+
+
+.contact-info {
+    font-size: smaller; 
+    margin-top: 0; 
+    padding-top: 0;
+}
+
+
+header a {
+    color: #eaf0f1; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header a:hover {
+    text-decoration: underline; 
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #cbbbdb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4773c4;
+}
+
+
+#aboutMe {
+    margin-top: 20px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diallo Personal Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>Diallo's Personal Portfolio</h1>
+        <h2 class="contact-info"><small>Contact: ddiallo8@fordham.edu</small></h2>
+        <p><a href="https://www.linkedin.com/in/diarayediallo366/" target="_blank">Connect with me on LinkedIn</a></p>
+
+    </header>
+    <section id="about">
+        <figure>
+            <img src="images/diallo.profilepicture.jpg" alt="Profile Picture" class="profile-pic">
+            <figcaption>
+                This photo was taken in a sophisticated hotel complex. The elegant dress I am wearing is from NA-KD, chosen for a brand collaboration I was working on. As a passionate content creator, I strive to blend creativity with professionalism, showcasing brands in an authentic and engaging manner.
+            </figcaption>
+        </figure>
+    </header>
+    <section id="background">
+        <button onclick="toggleAboutMe()">About Me</button>
+        <div id="aboutMe" style="display: none;">
+            <p>Hello, my name is Diaraye Diallo. I am a senior at Fordham University, majoring in New Media and Digital Design with a concentration in E-Commerce. This portfolio showcases my work and projects throughout the semester. Stay tuned for updates!</p>
+        </div>
+    </section>
+    <section id="work">
+        <h2>Diallo's Work</h2>
+        <p>Coming soon</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Diallo's Portfolio</p>
+    </footer>
+    <script>
+        function toggleAboutMe() {
+            var aboutMeSection = document.getElementById("aboutMe");
+            if (aboutMeSection.style.display === "none") {
+                aboutMeSection.style.display = "block";
+            } else {
+                aboutMeSection.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
